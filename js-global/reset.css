@@ -1,0 +1,105 @@
+@charset "UTF-8"; 
+/* Reset stili dgNet www.dgnet.it */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin:0;
+	padding:0;
+	border:0;
+	font-size:100%;
+	font:inherit;
+	}
+
+h1,h2,h3,h4,h5,h6 {font-weight:normal;}
+a {text-decoration:none;}
+a img {border:none;}
+ol, ul {list-style:none;}
+blockquote, q {quotes:none;}
+blockquote:before, blockquote:after, q:before, q:after {
+	content:'';
+	content none;
+	}
+	
+table {
+	border-collapse:collapse;
+	border-spacing:0;
+	}
+	
+img {-ms-interpolation-mode:bicubic; image-rendering:optimizeQuality;}
+	
+.dnone {display:none;}
+
+html {overflow:hidden; overflow-y:scroll;}
+html,body {height:100%;}
+
+/* HTML5 display-role reset per vecchi browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {display:block;}
+body {line-height:1;}
+
+/* Scorciatoie */	
+.t_right{text-align:right;}
+.t_center {text-align:center;}
+.t_left {text-align:left;}
+.f_left {float:left;}
+.f_right {float:right;}
+.clearfix{clear:both;}
+.transparent {background-color:transparent!important;}
+.pointer {cursor:pointer;}
+.centra {
+	position:relative;
+	width:960px;
+	margin:0 auto;
+	}
+.p_relative {position:relative!important;}
+.p_absolute {position:absolute!important;}
+.p_fixed {position:fixed!important;}
+.z999 {z-index:999!important;}
+
+em {font-style:italic;}
+
+.pad1 {padding:1px;}
+.pad2 {padding:2px;}
+.pad3 {padding:3px;}
+.pad4 {padding:4px;}
+.pad5 {padding:5px;}
+.pad6 {padding:6px;}
+.pad7 {padding:7px;}
+.pad8 {padding:8px;}
+.pad9 {padding:9px;}
+.pad10 {padding:10px;}
+/* ... */
+.pad15 {padding:15px;}
+.pad20 {padding:20px;}
+.pad25 {padding:25px;}
+.pad30 {padding:30px;}
+
+.h5 {height:5px;}
+.h10 {height:10px;}
+.h15 {height:15px;}
+.h20 {height:20px;}
+.h25 {height:25px;}
+.h30 {height:30px;}
+.h35 {height:35px;}
+.h40 {height:40px;}
+.h45 {height:45px;}
+.h50 {height:50px;}
+/* ... */
+.h60 {height:60px;}
+.h70 {height:70px;}
+.h80 {height:80px;}
+.h90 {height:90px;}
+.h100 {height:100px;}
+/* ... */
+.h150 {height:150px;}
+.h200 {height:200px;}
